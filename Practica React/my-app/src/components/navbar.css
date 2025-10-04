@@ -1,0 +1,46 @@
+
+.body{
+    background-color: rgb(216, 216, 216);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenedor{
+    display: flex;
+    gap: 20px;
+}
+
+.boton{
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+
+.barra{
+    height: 20px;
+    width: 300px;
+    background-color: gray;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.like{
+    height: 20px;
+    width: 20%;
+    background-color: green;
+    
+}
+
+.dislike{
+    height: 20px;
+    width: 10%;
+    background-color: red;
+}

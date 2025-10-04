@@ -1,0 +1,26 @@
+.carta {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+    border: 2px solid #f0f0f0;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.2s;
+    height: 400px;
+    text-decoration: none;
+    color: #f0f0f0;
+
+}
+
+.titulo{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta:hover{
+    transform: scale(1.03);
+    box-shadow: #f0f0f0;
+    cursor: pointer;
+}
