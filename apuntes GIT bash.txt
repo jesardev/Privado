@@ -1,0 +1,56 @@
+Apuntes GIT Bash
+
+>>terminos
+
+repositorio = es un lugar donde se almacena y se gestiona el cogido fuente de un proyecto de software
+
+>>comandos basicos
+
+mkdir -> crear un directorio
+
+touch -> crear un archivo
+
+ls -> para ver que archivos existen en un directorio
+
+ls -a -> sirve para ver archivos ocultos que existen dentro de un directorio
+
+rm -> sirve para eliminar un archivo (no un directorio)
+
+mv -> sirve para mover un archivo a otro directorio, ejemplo: mv archivo1.html ./carpeta1
+
+cd -> sirve para entrar en una carpeta
+
+cd .. -> sirve para ir una carpeta atras
+
+mv -> tambien sirve para cambiar el nombre de un archivo ejemplo: mv archivo3.js hola.js (el archivo quedara llamandose hola.js)
+
+pwd -> nos muestra en que directorio nos encontramos
+
+>>comandos git
+
+git init -> sirve para inicializar git, hay que estar ubicado en la carpeta que queremos
+
+git add <archivo> ->sirve para mover un archivo al stage antes de subirlo al repositorio
+
+git rm --cached <archivo> -> sirve para borrar un archivo del stage
+
+git commit -> sirve para agregar un elemento del stage al repositorio
+
+git chekout <archivo> -> sirve para restaurar el contenido de un archivo desde la ultima vez que fue guardado
+
+git restore <archivo> -> es para restaurar un elemento eliminado desde el area de stage hasta nuestra carpeta local
+
+git status <archivo> -> es para ver el status de los archivos
+
+git commit <archivo> -m "Tu mensaje de commit aquí"
+
+git reset --hard -> se utiliza en casos extremos cuando se borre o modifique un archivo, y en el commit ya se hayan guardado las modificaciones
+
+git status -s -> sirve para ver el status pero de una mejor forma 
+
+git show -> sirve para mostrar el contenido y los mensajes de un archivo 
+
+git diff --staged -> sirve para comparar un archivo modificado, uno que este en el commit y otro en el stage\
+
+git commit --ammend -> sirve para modificar un commit ya subido
+ 
